@@ -1,0 +1,231 @@
+#clip_container
+{
+	
+	font-size: 10px;
+	color: black;
+	font-family: 'Permanent Marker', cursive;
+	background-color: rgba(0, 0, 0, 0.1);
+	
+	position: absolute;
+	bottom: 84.5%;
+}
+
+#clip_text
+{
+	margin: 15px;
+	color: black;
+}
+
+#picture_container
+{
+	position: absolute;
+	bottom: 30%;
+	left: 45.5%;
+}
+
+#picture
+{
+	border-radius: 100px;
+	border: 2px solid white;
+}
+
+#heading_container
+{
+	position: absolute;
+	bottom: 10%;
+	left: 37%;
+}
+
+#heading_text_one
+{
+	color: white;
+	font-family: 'Allison', cursive;
+	font-size: 30px;
+	
+	position: absolute;
+	left: 40%;
+	bottom: 35%;
+}
+
+#heading_text_two
+{
+	color: white;
+	font-family: 'Archivo Black', sans-serif;
+}
+
+#button_container
+{
+	position: absolute;
+	bottom: 85%;
+	left: 60%;
+}
+
+.navbar_button
+{
+	font-size: 15px;
+	height: 50px;
+	width: 100px;
+	
+	border-radius: 10px;
+	
+	margin-left: 15px;
+
+	background-color: rgba(0, 0, 0, 0);
+	border-style: none;
+}
+
+.navbar_button:hover
+{
+	background-color: rgba(0, 0, 0, 0.2);
+	color: white;
+}
+
+#education_window
+{
+	width: 280px;
+	height: 437px;
+	
+	line-height: 1;
+	color: white;
+	font-family: 'Roboto Mono', monospace;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-style: none;
+	box-shadow: 0 1px 4.5px 0 rgb(32 33 36 / 40%);
+	border-radius: 8px;
+	
+	display: none;
+	padding: 5px;
+	
+	position: absolute;
+	right: 198%;
+	top:140%;
+}
+
+#certificates_window
+{
+	width: 310px;
+	height: 180px;
+	
+	line-height: 1;
+	color: white;
+	font-family: 'Roboto Mono', monospace;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-style: none;
+	box-shadow: 0 1px 4.5px 0 rgb(32 33 36 / 40%);
+	border-radius: 8px;
+	
+	display: none;
+	padding: 5px;
+	
+	position: absolute;
+	right: 130%;
+	top:140%;
+}
+
+#interests_window
+{
+	width: 310px;
+	height: 180px;
+	
+	line-height: 1;
+	color: white;
+	font-family: 'Roboto Mono', monospace;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-style: none;
+	box-shadow: 0 1px 4.5px 0 rgb(32 33 36 / 40%);
+	border-radius: 8px;
+	
+	display: none;
+	padding: 5px;
+	
+	position: absolute;
+	right: 58%;
+	top:140%;
+}
+
+#about_window
+{
+	width: 280px;
+	height: 437px;
+	
+	text-align: justify;
+	
+	line-height: 1.5;
+	color: white;
+	font-family: 'Roboto Mono', monospace;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-style: none;
+	box-shadow: 0 1px 4.5px 0 rgb(32 33 36 / 40%);
+	border-radius: 8px;
+	
+	display: none;
+	padding: 5px;
+	
+	position: absolute;
+	left: 44%;
+	top:140%;
+}
+
+#linkedin
+{	
+	position: absolute;
+	top:590%;
+	right: 180%;
+}
+
+#linkedin_picture
+{
+	border: 5px solid rgba(0, 0, 0, 0.5);;
+	border-radius: 100px;
+}
+
+#github
+{	
+	position: absolute;
+	top:590%;
+	right: 158%;
+}
+
+#github_picture
+{
+	border: 5px solid rgba(0, 0, 0, 0.5);;
+	border-radius: 100px;
+}
+
+#instagram
+{	
+	position: absolute;
+	top:585%;
+	right: 100%;
+}
+
+#instagram_picture
+{
+	border: 5px solid rgba(0, 0, 0, 0.5);;
+	border-radius: 100px;
+}
+
+#skype
+{	
+	position: absolute;
+	top:585%;
+	left: 20%;
+}
+
+#skype_picture
+{
+	border: 5px solid rgba(0, 0, 0, 0.5);;
+	border-radius: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

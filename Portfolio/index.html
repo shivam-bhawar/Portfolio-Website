@@ -1,0 +1,138 @@
+<html>
+	<head>
+		<title>
+			Shivam Bhawar
+		</title>
+		
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link rel="stylesheet" href="lib\style.css"> <!-- Link to CSS file -->
+		<script src="lib\action.js"></script> <!-- Link to JavaScript file -->	
+		<script src="https://code.jquery.com/jquery-3.4.0.min.js"></script> <!-- Link to External JavaScript file -->
+		
+		<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+		
+		<link href="https://fonts.googleapis.com/css2?family=Allison&display=swap" rel="stylesheet">
+		
+		<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+		
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+	</head>
+	
+	<body>
+		<img src="lib\images\background_image.png" width="100%" height="100%">
+		
+		<div id="clip_container">
+			<h1 id="clip_text"> FRESHER </h1>
+		</div>
+			
+		<div id="picture_container">
+			<img id="picture" src="lib\images\picture.png"  width="15%">
+		</div>
+		
+		<div id="heading_container">
+			<h3 id="heading_text_one"> Hi, I'm </h3>
+			<h1 id="heading_text_two">  -SHIVAM BHAWAR-  </h1>
+		</div>
+		
+		<div id="button_container">
+			<button class="navbar_button" id="more_google_apps" onclick="openEducation()"> 
+				<b> Education </b>
+			</button>
+			<button class="navbar_button" id="more_google_apps" onclick="openCertificates()"> 
+				<b> Certificates </b>
+			</button>
+			<button class="navbar_button" id="more_google_apps" onclick="openInterests()"> 
+				<b> Interests </b>
+			</button>
+			<button class="navbar_button" id="more_google_apps" onclick="openAbout()"> 
+				<b> About </b>
+			</button>
+		<div>
+		
+		<div id="education_window">
+			<h2><u> SSC </u></h2>
+			<h4> 85.40% </h4>
+			<p> <i>Jawahar Mahyamik Vidyalaya, Chanda </i></p>
+			<h2><u> HSC </u></h2>
+			<h4> 79.85% </h4>
+			<p>  <i>Shree Shanishwar Junior College, Sonai </i></p>
+			<h2><u>BE</u>-<u>IT</u></h2>
+			<h4> 8.65 CGPA </h4>
+			<p> <i>Amrutvahini College of Engineering, Sangamner </i></p>
+		</div>
+		
+		<div id="certificates_window">
+			<h4><u>TCS</u> <u>NQT</u>-May, 2021(Score:1214.12)</h4>
+			
+			<h4> Programming, Data Structures and Algorithms Using Python by NPTEL(Elite Badge)</h4>
+
+			<h4> Programming Course in C </h4>
+
+			<h4> Programming Course in C++ </h4>
+		</div>
+		
+		<div id="interests_window">
+			<h3><u> Skills </u></h3>
+			<h4> C, C++, Java, C#, HTML, CSS, JavaScript, MySQL</h4>
+			
+			<h3><u> Hobbies </u></h3>
+			<h4> Reading Books, Travelling, Drawing </h4>
+		</div>
+		
+		<div id="about_window">
+			<p> I am Shivam Bhawar. I am from Ahmednagar. Currently I am pursuing Fourth Year of IT Engineering  in Amrutvahini College of Engineering, Sangamner. My hobbies are Reading Books, Travelling and Drawing Illustrations. I tend to keep my thiking positive in every situations. My behaviour is smoothly adaptable to new environments. I like to keep learning new things everyday and increase my knowledge in every field of my interests possible. </p>
+		</div>
+		
+		<div id="linkedin">
+			<a href="https://www.linkedin.com/in/shivam-bhawar" target="blank"> <img id="linkedin_picture" src="lib\images\linkedin.png" width="300%"> </a>
+		</div>
+		
+		<div id="github">
+			<a href="https://github.com/shivam-bhawar/" target="blank"> <img id="github_picture" src="lib\images\github.png" width="300%"> </a>
+		</div>
+		
+		<div id="instagram">
+			<a href="https://instagram.com/5hivam.bhawar" target="blank"> <img id="instagram_picture" src="lib\images\instagram.png" width="300%"> </a>
+		</div>
+		
+		<div id="skype">
+			<a href="https://join.skype.com/invite/wWSr1y1naroH" target="blank"> <img id="skype_picture" src="lib\images\skype.png" width="8%"> </a>
+		</div>
+		
+		<script>
+			$(document).mouseup(function (e) 
+			{
+				if ($(e.target).closest("#education_window").length === 0) 
+				{
+					$("#education_window").hide();
+				}
+			});
+			
+			$(document).mouseup(function (e) 
+			{
+				if ($(e.target).closest("#certificates_window").length === 0) 
+				{
+					$("#certificates_window").hide();
+				}
+			});
+			
+			$(document).mouseup(function (e) 
+			{
+				if ($(e.target).closest("#interests_window").length === 0) 
+				{
+					$("#interests_window").hide();
+				}
+			});
+			
+			$(document).mouseup(function (e) 
+			{
+				if ($(e.target).closest("#about_window").length === 0) 
+				{
+					$("#about_window").hide();
+				}
+			});
+		</script>
+	</body>
+</html>
